@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="4.2" type="plugin" group="task" method="upgrade">
+	<name>plg_task_checkin</name>
+	<creationDate>2022-11-19</creationDate>
+	<author>Tobias Zulauf</author>
+	<copyright>(C) 2022 Tobias Zulauf All rights reserved.</copyright>
+	<authorUrl>https://www.jah-tz.de</authorUrl>
+	<version>1.0.0</version>
+	<license>GNU/GPL Version 2 or later</license>
+	<description>PLG_TASK_CHECKIN_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<namespace path="src">Joomla\Plugin\Task\Checkin</namespace>
+	<files>
+		<folder>language</folder>
+		<folder plugin="checkin">services</folder>
+		<folder>src</folder>
+	</files>
+	<updateservers>
+		<server type="extension" name="Checkin Task Update Site">https://raw.githubusercontent.com/zero-24/plg_task_checkin/master/update.xml</server>
+	</updateservers>
+</extension>

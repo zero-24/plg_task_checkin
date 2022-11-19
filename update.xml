@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<updates>
+	<update>
+		<name>Checkin Task 1.0.0</name>
+		<description>Checkin Task Plugin</description>
+		<element>checkin</element>
+		<type>plugin</type>
+		<folder>task</folder>
+		<client>site</client>
+		<version>1.0.0</version>
+		<infourl title="Checkin Task Plugin">https://github.com/zero-24/plg_task_checkin</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_task_checkin/releases/download/1.0.0/plg_task_checkin.zip</downloadurl>
+		</downloads>
+		<sha512>848d33a47636847e427177c9dadaa3464fa832b538ce99f9f18176200458718ef85c2b6bbf1189b0c62855b70ab7b1f68c19cbec9060f8068acab2f8d1fb213a</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>Tobias Zulauf</maintainer>
+		<maintainerurl>https://www.jah-tz.de</maintainerurl>
+		<php_minimum>7.2.5</php_minimum>
+		<targetplatform name="joomla" version="4.[0123]"/>
+	</update>
+</updates>

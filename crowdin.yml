@@ -1,0 +1,17 @@
+"project_id_env": "CROWDIN_ZERO24_PROJECT_ID"
+"api_token_env": "CROWDIN_ZERO24_PERSONAL_TOKEN"
+"base_path": "language/"
+"base_url": "https://joomla.crowdin.com"
+"preserve_hierarchy": true
+"files": [
+  {
+    "source": "/en-GB/plg_task_checkin.ini",
+    "translation": "/%locale%/plg_task_checkin.ini",
+    "update_option": "update_as_unapproved"
+  },
+  {
+    "source": "/en-GB/plg_task_checkin.sys.ini",
+    "translation": "/%locale%/plg_task_checkin.sys.ini",
+    "update_option": "update_as_unapproved"
+  }
+]
