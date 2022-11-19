@@ -22,19 +22,19 @@ This plugin is translated into the following languages:
 
 ## Special Thanks
 
-David Jardin - @snipersister - https://www.djumla.de/ & Yves Hoppe - @yvesh - https://compojoom.com/
+Markus Wortmann (@Worti2)
 
-For giving me the inspiration for the plugin and their feedback on the actual implementation. Thanks :+1:
+For giving me the inspiration for the plugin and the initial feedback. Thanks :+1:
 
 ## Joomla! Extensions Directory (JED)
 
-This plugin can also been found in the Joomla! Extensions Directory: [HTTPHeader by zero24](https://extensions.joomla.org/extension/httpheader/)
+This plugin can also been found in the Joomla! Extensions Directory: [TaskCheckin by zero24](https://extensions.joomla.org/extension/taskcheckin/)
 
 ## Release steps
 
 - `build/build.sh`
-- `git commit -am 'prepare release HttpHeader 1.0.x'`
-- `git tag -s '1.0.x' -m 'HttpHeader 1.0.x'`
+- `git commit -am 'prepare release TaskCheckin 1.0.x'`
+- `git tag -s '1.0.x' -m 'TaskCheckin 1.0.x'`
 - `git push origin --tags`
 - create the release on GitHub
 - `git push origin master`
