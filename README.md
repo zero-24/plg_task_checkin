@@ -18,7 +18,11 @@ You want to translate this extension to your own language? Check out my [Crowdin
 
 This plugin is translated into the following languages:
 - de-DE by @zero-24
-- en-GB by @zero-24
+- en-GB by @brianteeman @zero-24
+
+## Beyond this repo
+
+This plugin has been proposed for the Joomla Core ([joomla/joomla-cms#39323](https://github.com/joomla/joomla-cms/pull/39323)) and could be part of the upcomming 4.3.0 release. Please note that the core the plugin has been renamed to plg_task_globalcheckin but the feature set is 1:1 the same as this here.
 
 ## Special Thanks
 
